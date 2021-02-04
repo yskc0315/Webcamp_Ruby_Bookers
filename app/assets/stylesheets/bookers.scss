@@ -1,0 +1,61 @@
+// Place all the styles related to the bookers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1{
+    margin: 17.420px 0;
+}
+
+tabel{
+    table-layout: auto;
+}
+th{
+    padding: 1px 1px 5px 1px;
+}
+td{
+    padding: 1px 5px 7px 5px;
+}
+
+h2{
+    margin: 16.185px 0;
+}
+
+.new{
+  display: block;
+}
+
+.field{
+    margin-bottom: 10px;
+}
+
+.button{
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 0.1px;
+    width: 90px;
+    height: 20px;
+}
+
+.show{
+    margin: 33px;
+}
+.show-field{
+        font-weight: bold;
+}
+
+h3{
+    background-color: #f00;
+    color: #fff;
+    margin: 0;
+    width: 400px;
+    font-size: 10px;
+}
+
+ul{
+    background-color: #777;
+}
+
+ul li{
+    list-style: square;
+    list-style-position: inside;
+}
