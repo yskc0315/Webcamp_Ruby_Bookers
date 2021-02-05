@@ -25,21 +25,19 @@
     <%= form_with model: @book, url: '/books', local: true do |f| %>
       <div class="error-box">
         <% if @book.errors.any? %>
-  　      <h3><%= pluralize(@book.errors.count, "error") %> prohibited this book from being saved:</h3>
-  　       <div class="error-list">
+  　      <h3 class="error-message"><%= pluralize(@book.errors.count, "error") %> prohibited this book from being saved:</h3>
             <ul>
               <% @book.errors.full_messages.each do |message| %>
                 <li><%= message %></li>
               <% end %>
             </ul>
-          </div>
         <% end %>
       </div>
-      <div>
+      <div class="title">
         <label>Title</label>
         <div class="field"><%= f.text_field :title %></div>
       </div>
-      <div>
+      <div class="body">
         <label>Body</label>
         <div class="field"><%= f.text_area :body %></div>
       </div>
